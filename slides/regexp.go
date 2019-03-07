@@ -7,7 +7,7 @@ import (
 	"regexp"
 )
 
-// START OMIT
+// FuzzRegexp starts OMIT
 func FuzzRegexp(data []byte) int {
 	if len(data) < 3 {
 		return 0
